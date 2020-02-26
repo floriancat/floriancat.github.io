@@ -43,8 +43,8 @@
 		}
 		nav {
 			display: block;
-			width: 100%;
-			position: fixed;
+			width: 90%;
+			position: absolute;
 			top: 0px;
 		}
 		nav ul {
@@ -76,4 +76,10 @@
 			font-style: normal;
 			font-weight: 300;
 			font-size: 60px;
+		}
+		.resume {
+			margin-right: auto;
+			margin-left: auto;
+			text-align: center;
+			padding-right: 21px;
 		}
