@@ -1,4 +1,4 @@
-.containerNameAndPic {
+		.containerNameAndPic {
 			display: grid;
 			/*border: 1px solid black;*/
 			grid-template-columns: 1fr 1fr;
@@ -69,4 +69,11 @@
 			padding: 10px;
 			font-family: Roboto Slab;
 			font-size: 20px;
+		}
+		#myResume {
+			text-align: center;
+			font-family: Roboto Slab;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 60px;
 		}
