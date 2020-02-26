@@ -1,0 +1,72 @@
+.containerNameAndPic {
+			display: grid;
+			/*border: 1px solid black;*/
+			grid-template-columns: 1fr 1fr;
+			height: 600px;
+		}
+		#name {
+			width: 422px;
+			height: 343px;
+			font-family: Roboto Slab;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 100px;
+			line-height: 87.19%;
+			display: flex;
+			align-items: center;
+			text-align: right;
+			margin-left: 200px;
+		}
+		.picStyle {
+			align-self: center;
+			width: 300px; 
+			display: flex;
+			margin-top: 100px;
+			border-radius: 3px;
+			border: 5px ;
+		}
+		#amTitle {
+			text-align: center;
+			font-family: Roboto Slab;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 60px;
+		}
+		#amDesc {
+			text-align: center;
+			font-family: Roboto Slab;
+			font-style: normal;
+			font-weight: 300;
+			font-size: 20px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		nav {
+			display: block;
+			width: 100%;
+			position: fixed;
+			top: 0px;
+		}
+		nav ul {
+			list-style: none;
+			padding-left: 0px;
+		}
+		nav ul li {
+			float: left;
+		}
+		.homeButton {
+			color: #000000;
+			text-decoration: none;
+			border-bottom: inset;
+			padding: 10px;
+			font-family: Roboto Slab;
+			font-size: 20px;
+		}
+		.resumeButton {
+			color: #000000;
+			text-decoration: none;
+			border-bottom: inset;
+			padding: 10px;
+			font-family: Roboto Slab;
+			font-size: 20px;
+		}

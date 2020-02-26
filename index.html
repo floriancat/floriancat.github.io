@@ -1,64 +1,21 @@
 <!DOCTYPE html>
-<html id = wholePage>
-
+<html>
 <head> 
+	<link rel ="stylesheet" type = "text/css" href = "style.css">
 	<title> Florian Catalan </title> 
-	<style>
-		#wholePage {
-			background-color: #374170;
-		}
-		#name{
-			font-size: 80px;
-			color: black;
-			font-weight: bold;
-			font-family: courier;
-			text-align: auto;
-		}
-		.picStyle {
-			display: block;
-			margin-top: auto;
-			margin-left: auto;
-			margin-right: auto;
-			margin-bottom: auto;
-			border-radius: 50%;
-			border-style: solid;
-			border-color: #484c6b;
-			width: 25%;
-		}
-		#resume{
-			display: block;
-			width: 70%;
-			height: 700px;
-		}
-		#navBar{
-			list-style-type: none;
-			margin:0;
-			padding:0;
-			overflow: hidden;
-		}
-		#navBar li{
-			float: left;
-
-		}
-		#navBar li a{
-			display: block;
-			padding: 8px;
-			background-color: #2d355c;
-		}
-	</style>
 </head>
-
-<ul id = navBar>
-	<li><a href = "index.html">Home</a></li>
-	<li><a href = "contact.html">Contact</a></li>
-	<li><a href = "about.html">About</a></li>
-	<li><a href = "resume.html">Resume</a></li>
-</ul>
-
 <body>
-	<div> <p id = "name"> Florian Catalan </p> </div>
-	<div> <img class="picStyle" src="profile-picture.jpg" alt="My profile picture."> </div>
-	<embed id = "resume" src="resume.pdf">
+	<nav>
+		<ul>
+			<li> <a href = "index.html" class = "homeButton">Home</a> </li>
+			<li> <a href = "resume.html" class = "resumeButton">Resume</a> </li>
+		</ul>
+	</nav>
+	<div class = "containerNameAndPic">
+		<p id = "name"> Florian Catalan </p>
+		<p> <img class = "picStyle" src = "profile-picture.jpg" alt = "My profile picture"> </p>
+	</div>
+	<div> <h1 id = "amTitle"> About Me </h1> </div>
+	<div> <p id = "amDesc"> Hey there! My name is Florian Catalan. I'm a 2nd year computer science major at the University of California, Riverside. I'm a driven student, I apply myself to whatever it is I'm doing and always put my best effort forward. Outside of school, I like to play video games, watch movies, draw, edit, and design.</p> 
 </body>
-
 </html>
